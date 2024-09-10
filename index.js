@@ -11,6 +11,7 @@ resumeForm.addEventListener("submit", (event) => {
     const skills = document.getElementById("skills").value;
     const resumeHTML = `
   <h1>Generated Resume</h1>
+  <hr color="black" height="20px">
     <h2>Personal Information</h2>
     <p><strong>Full Name:</strong> ${name}</p>
     <p><strong>Email:</strong> ${email}</p>
@@ -48,3 +49,4 @@ resumeForm.addEventListener("submit", (event) => {
         resume.style.display = "block";
     }
 });
+

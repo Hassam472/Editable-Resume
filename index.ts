@@ -18,23 +18,23 @@ resumeForm.addEventListener("submit", (event) => {
     <h2>Personal Information</h2>
     <p><strong>Full Name:</strong> ${name}</p>
     <p><strong>Email:</strong> ${email}</p>
-    <br> <br>
+    <br><hr height="20px" color="black"><br>
 
     <h2>Education</h2>
     <p><strong>Degree:</strong> ${education} at ${school}</p>
-    <br> <br>
+    <br><hr height="20px" color="black"><br>
 
     <h2>Work Experience</h2>
     <p><strong>Job Title:</strong> ${jobTitle}</p>
     <p><strong>Company:</strong> ${company}</p>
-    <br> <br>
+    <br><hr height="20px" color="black"><br>
 
     <h2>Skills</h2>
     <p>${skills
       .split(",")
       .map((skill) => skill.trim())
       .join(", ")}</p>
-    <br> <br>
+    <br><hr height="20px" color="black"><br>
     
     <button id="edit" type="edit">Edit Resume</button>
   `;
